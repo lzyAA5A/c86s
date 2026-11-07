@@ -1,0 +1,9 @@
+{
+ "port": "COM4",
+ "scale": "3",
+ "link_baud": "921600",
+ "up_baud": "921600",
+ "rd_baud": "921600",
+ "flash_img": true,
+ "want_backup": true
+}

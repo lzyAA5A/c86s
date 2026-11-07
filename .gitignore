@@ -1,0 +1,19 @@
+# PlatformIO build output
+.pio/
+
+# whole-chip backups of the stock vendor firmware (never published)
+backup/
+
+# DOS system disk images: bring your own, they are not redistributable here
+data/*.img
+data/*.IMG
+data/*.bak
+data/*.7z
+data/*.zip
+
+# tooling debris
+__pycache__/
+*.pyc
+*.log
+tools/shots/
+tools/mgr.cfg

@@ -1,0 +1,15 @@
+# C86S 8 MB layout.  The stock firmware on this board only used 0x0-0x400000
+# and left a 2 MB GUIX blob at 0x400000-0x600000; 0x600000-0x800000 was a solid
+# 0xFF (erased) region, so the disk image is parked up there and nothing that
+# pre-existed is destroyed.  0x3A0000-0x600000 is left unpartitioned.
+#
+# app0 is 3 MB because the emulator carries ~1 MB of BIOS/ROM/COM data in
+# .rodata.  NOTE: keep this file ASCII-only -- the builder parses it with the
+# platform locale codec (GBK here) and non-ASCII bytes crash the max-size step.
+#
+# name,     type, subtype,  offset,   size,     flags
+nvs,        data, nvs,      0x9000,   0x5000,
+otadata,    data, ota,      0xE000,   0x2000,
+app0,       app,  factory,  0x10000,  0x300000,
+swap,       data, 0x40,     0x310000, 0x90000,
+disk,       data, 0x99,     0x600000, 0x200000,
