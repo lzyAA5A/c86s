@@ -7,6 +7,17 @@
 C86S —— 适合 ESP32 的 DOS 模拟器（画面走串口）。
 Copyright (C) 2026 lzyAA5A。以 GNU GPL v3.0 或更高版本发布，全文见 [LICENSE](LICENSE)。
 
+## 许可声明
+
+`LICENSE` 文件是 GNU GPL v3.0 的标准全文。本项目及上游的权利与授权声明如下：
+
+* **C86S** —— Copyright (C) 2026 lzyAA5A
+* **CardPuter86** —— Copyright (C) 2026 Clearwave
+* **Fake86** —— by Mike Chambers；**ESP32TinyFake86** —— by Ackerman
+
+C86S 是自由软件：你可以按自由软件基金会发布的 GNU 通用公共许可证条款（第 3 版，或你选择的任何更高版本）
+再分发和/或修改它。分发时不提供任何担保，包括适销性或特定用途适用性的默示担保，
+详见 `LICENSE` 中的 GNU 通用公共许可证全文。
 ## 血统与原始署名
 
 C86S 是下面这条链上的衍生作品，原始署名全部保留：

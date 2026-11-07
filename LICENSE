@@ -1,32 +1,3 @@
-C86S - a DOS/8086 PC emulator for a bare ESP32, with video over serial
-Copyright (C) 2026 lzyAA5A
-
-C86S is a derivative work of CardPuter86 (Copyright (C) 2026 Clearwave), which
-in turn derives from the Fake86 emulator by Mike Chambers and the
-ESP32TinyFake86 project by Ackerman.
-
-This program is free software: you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation, either version 3 of the License, or (at your
-option) any later version.
-
-This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-------------------------------------------------------------------------------
-The upstream CardPuter86 licence notice follows, and after it the complete
-text of GNU GPL version 3.
-CardPuter86
-Copyright (C) 2026 Clearwave
-
-This program is free software: you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation, either version 3 of the License, or (at your
-option) any later version.
-
-The complete text of GNU GPL version 3 follows.
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
